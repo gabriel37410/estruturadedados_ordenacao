@@ -9,8 +9,8 @@
 
 int valoresRandomicos[TAMANHO];
 int valoresParaBolha[TAMANHO];
-int valoresParaInsercao[TAMANHO];
 int valoresParaSelecao[TAMANHO];
+int valoresParaInsercao[TAMANHO];
 
 void prepararNumerosRandomicos() {
     time_t t;
@@ -20,8 +20,8 @@ void prepararNumerosRandomicos() {
     for( i = 0 ; i < TAMANHO ; i++ ) {
         valoresRandomicos[i] = (rand() % VALOR_MAXIMO);
         valoresParaBolha[j] = valoresRandomicos[i];
-        valoresParaInsercao[j] = valoresRandomicos[i];
         valoresParaSelecao[j] = valoresRandomicos[i];
+        valoresParaInsercao[j] = valoresRandomicos[i];
         j++;
         //printf("%d\n", valoresRandomicos[i]);
     }
