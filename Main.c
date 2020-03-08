@@ -9,7 +9,7 @@
 
 
 void ordenarUsandoSelecao() {
-
+teste;
 }
 
 void ordenarUsandoInsercao() {
