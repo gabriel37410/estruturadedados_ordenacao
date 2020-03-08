@@ -6,11 +6,7 @@
 #include "gerar_numeros.c"
 #include "tempos.c"
 #include "bolha.c"
-
-
-void ordenarUsandoSelecao() {
-
-}
+#include "selecao.c"
 
 void ordenarUsandoInsercao() {
 
@@ -24,6 +20,8 @@ int main () {
     prepararNumerosRandomicos();
 
     ordenarUsandoBolha();
+
     ordenarUsandoSelecao();
+
     return 0;
 }
