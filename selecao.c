@@ -1,10 +1,11 @@
 #include <stdio.h>
 #include <time.h>
 #include <stdlib.h>
-#include <time.h>
 
-//ORDENAR USANDO SELEÇÃO
+// ORDENAÇÃO USANDO SELEÇÃO
 void ordenarUsandoSelecao() {
+    printf("\nSelecao \n");
+    marcarInicioDaExecucao();
 
 
 
@@ -12,4 +13,14 @@ void ordenarUsandoSelecao() {
 
 
 
+    marcarFinalDaExecucao();
+    
+    //IMPRIMI NUMEROS ORDENADOS PELO METODO SELEÇÃO
+    /*
+    for (j = 0; j < TAMANHO; j++) {  
+    printf("%d\n", valoresParaSelecao[j]);
+    }
+    */
+
+    imprimirDuracaoDaExecucao(); //IMPRIMI TEMPO DE ORDENAÇÃO EM SEGUNDOS
 }

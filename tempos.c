@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <time.h>
 #include <stdlib.h>
-#include <time.h>
 
 // MARCAÇÃO DO TEMPO DE EXECUÇÃO DAS ORDENAÇÕES
 clock_t inicial, final;

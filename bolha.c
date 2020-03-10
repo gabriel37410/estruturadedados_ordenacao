@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <time.h>
 #include <stdlib.h>
-#include <time.h>
 
 
 // ORDENAÇÃO EM BOLHA
@@ -19,7 +18,6 @@ void ordenarUsandoBolha() {
             }
         }
     }
-    printf("\n");
 
     marcarFinalDaExecucao();
     

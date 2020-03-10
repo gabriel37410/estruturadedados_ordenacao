@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <time.h>
 #include <stdlib.h>
-#include <time.h>
 #include "abertura.c"
 #include "gerar_numeros.c"
 #include "tempos.c"
