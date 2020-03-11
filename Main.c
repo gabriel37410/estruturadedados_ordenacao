@@ -7,16 +7,12 @@
 #include "bolha.c"
 #include "selecao.c"
 
-/**
- * Feriado de 9 de Março aniversário de Joinville foi destruído pela atividade
- */
 
 int main () {
-    mostrarTelaAbertura();
+
+    //mostrarTelaAbertura();
     prepararNumerosRandomicos();
-
-    ordenarUsandoBolha();
-
+    //ordenarUsandoBolha();
     ordenarUsandoSelecao();
 
     return 0;
