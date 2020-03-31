@@ -3,13 +3,15 @@
 #include <stdlib.h>
 
 
-#define TAMANHO 10000
-#define VALOR_MAXIMO 10000
+#define TAMANHO 100000       // Quantidades de números gerados
+#define VALOR_MAXIMO 10000  // Valor máximo 
 
 int valoresRandomicos[TAMANHO];
 int valoresParaBolha[TAMANHO];
 int valoresParaSelecao[TAMANHO];
 int valoresParaInsercao[TAMANHO];
+int valoresParaQuicksort[TAMANHO];
+int valoresParaTimsort[TAMANHO];
 
 void prepararNumerosRandomicos() {
     time_t t;
@@ -20,6 +22,8 @@ void prepararNumerosRandomicos() {
         valoresParaBolha[i] = valoresRandomicos[i];
         valoresParaSelecao[i] = valoresRandomicos[i];
         valoresParaInsercao[i] = valoresRandomicos[i];
+        valoresParaQuicksort[i] = valoresRandomicos[i];
+        valoresParaTimsort[i] = valoresRandomicos[i];
         //printf("%d\n", valoresRandomicos[i]);
     }
 

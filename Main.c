@@ -7,6 +7,8 @@
 #include "bolha.c"
 #include "selecao.c"
 #include "insercao.c"
+#include "quicksort.c"
+#include "timsort.c"
 
 /**
  * Feriado de 9 de Março aniversário de Joinville foi destruído pela atividade
@@ -16,11 +18,10 @@ int main () {
     mostrarTelaAbertura();
     prepararNumerosRandomicos();
 
-    ordenarUsandoBolha();
-
-    ordenarUsandoSelecao();
-
-    ordenarUsandoInsercao();
-
+    //ordenarUsandoBolha();       //OK
+    //ordenarUsandoSelecao();     //Israel desenvolvendo
+    ordenarUsandoInsercao();    //OK
+    //ordenarUsandoQuicksort();   //Não iniciado
+    ordenarUsandoTimsort();     //Gabriel desenvolvendo
     return 0;
 }

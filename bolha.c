@@ -5,7 +5,7 @@
 
 // ORDENAÇÃO EM BOLHA
 void ordenarUsandoBolha() {
-    printf("Bolha \n");
+    printf("\nBolha \n");
     marcarInicioDaExecucao();
 
     int i = 0, j = 0, tmp;
