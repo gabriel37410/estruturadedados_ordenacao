@@ -10,18 +10,15 @@
 #include "quicksort.c"
 #include "timsort.c"
 
-/**
- * Feriado de 9 de Março aniversário de Joinville foi destruído pela atividade
- */
 
 int main () {
     mostrarTelaAbertura();
     prepararNumerosRandomicos();
 
-    //ordenarUsandoBolha();       //OK
-    //ordenarUsandoSelecao();     //Israel desenvolvendo
+    ordenarUsandoBolha();       //OK
+    ordenarUsandoSelecao();     //OK
     ordenarUsandoInsercao();    //OK
-    //ordenarUsandoQuicksort();   //Não iniciado
-    ordenarUsandoTimsort();     //Gabriel desenvolvendo
+    //ordenarUsandoQuicksort();   //Israel desenvolvendo
+    //ordenarUsandoTimsort();     //Gabriel desenvolvendo
     return 0;
 }

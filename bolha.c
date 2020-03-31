@@ -2,7 +2,6 @@
 #include <time.h>
 #include <stdlib.h>
 
-
 // ORDENAÇÃO EM BOLHA
 void ordenarUsandoBolha() {
     printf("\nBolha \n");

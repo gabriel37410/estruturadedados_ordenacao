@@ -16,5 +16,5 @@ final = clock();
 
 void imprimirDuracaoDaExecucao() {
 double duracao = ((double)final - inicial)/CLOCKS_PER_SEC;
-printf("Tempo de ordenacao %f segundos\n", duracao);
+printf("Tempo de ordenacao %f segundos\n\n", duracao);
 }
