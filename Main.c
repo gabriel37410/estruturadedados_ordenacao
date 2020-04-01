@@ -22,3 +22,4 @@ int main () {
     //ordenarUsandoTimsort();     //Gabriel desenvolvendo
     return 0;
 }
+
