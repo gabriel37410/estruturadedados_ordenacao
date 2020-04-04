@@ -18,8 +18,8 @@ int main () {
     ordenarUsandoBolha();       //OK
     ordenarUsandoSelecao();     //OK
     ordenarUsandoInsercao();    //OK
-    //ordenarUsandoQuicksort();   //Israel desenvolvendo
-    //ordenarUsandoTimsort();     //Gabriel desenvolvendo
+    ordenarUsandoQuicksort();   //OK
+    ordenarUsandoTimsort();     //Falta implementar inserção
     return 0;
 }
 
