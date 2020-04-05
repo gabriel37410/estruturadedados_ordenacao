@@ -22,8 +22,9 @@ void ordenarUsandoBolha() {
     
     //IMPRIMI NUMEROS ORDENADOS PELO METODO BOLHA
     /*
-    for (j = 0; j < TAMANHO; j++) {  
-    printf("%d\n", valoresParaBolha[j]);
+    int l = 0;
+    for (l = 0; l < TAMANHO; l++) {  
+    printf("%d\n", valoresParaBolha[l]);
     }
     */
 

@@ -22,8 +22,9 @@ void ordenarUsandoInsercao() {
     
     //IMPRIMI NUMEROS ORDENADOS PELO METODO INSERÇÃO
     /*
-    for (j = 0; j < TAMANHO; j++) {  
-    printf("%d\n", valoresParaInsercao[j]);
+    int l = 0;
+    for (l = 0; l < TAMANHO; l++) {  
+    printf("%d\n", valoresParaInsercao[l]);
     }
     */
 

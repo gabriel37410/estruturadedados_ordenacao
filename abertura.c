@@ -2,8 +2,6 @@
 #include <time.h>
 #include <stdlib.h>
 
-
-
 /**
  * Imprime uma tela de abertura
  */ 

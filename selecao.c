@@ -32,12 +32,12 @@ void ordenarUsandoSelecao() {
 
     //IMPRIMI NUMEROS ORDENADOS PELO METODO SELEÇÃO
     /*
-    for (x = 0; x < TAMANHO; x++) {  
-    printf("%d\n", valoresParaSelecao[x]);
+    int l = 0;
+    for (l = 0; l < TAMANHO; l++) {  
+    printf("%d\n", valoresParaSelecao[l]);
     }
     */
     
-
     marcarFinalDaExecucao();
     imprimirDuracaoDaExecucao(); //IMPRIMI TEMPO DE ORDENAÇÃO EM SEGUNDOS
 }

@@ -50,7 +50,6 @@ void timSort(int *vetor, int posicaoInicio, int posicaoFim) {
 
 }
 
-
 // ORDENAÇÃO USANDO TIM SORT
 void ordenarUsandoTimsort() {
     printf("\nTimSort \n");
