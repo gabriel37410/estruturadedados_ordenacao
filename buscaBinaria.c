@@ -2,22 +2,20 @@
 #include <time.h>
 #include <stdlib.h>
 
-int busca( int k[], int chave , int N)
+int busca( int array[], int digito, int tamanho)
 {
- int inf,sup,meio;
- inf=0;
- sup=N-1;
- printf("Digite o valor que deseja buscar: ");
- scanf("%d", &chave);
- while (inf<=sup)
+ int inicio,fim,posicao;
+ inicio=0;
+ fim=tamanho-1;
+ while (inicio<=fim)
  {
-      meio=(inf+sup)/2;
-      if (chave==k[meio])
-           return printf("Encontrado na posicao: %d do array", meio);
-      else if (chave<k[meio])
-           sup=meio-1;
+      posicao=(inicio+fim)/2;
+      if (digito==array[posicao])
+           return printf("O valor %d foi encontrado na posicao: %d do array", array[posicao], posicao);
+      else if (digito<array[posicao])
+           fim=posicao-1;
       else
-           inf=meio+1;
+           inicio=posicao+1;
  }
  return printf("Valor nao encontrado.\n");   /* não encontrado */
 }
@@ -31,6 +29,10 @@ void buscaBinaria() {
     printf("%d\n", valoresParaQuicksort[l]);
     }
 
+    int digito = 0;
+    printf("Digite o valor que deseja buscar: ");
+    scanf("%d", &digito);
+
     //BUSCA BINARIA
-    busca(valoresParaQuicksort, 0, TAMANHO);
+    busca(valoresParaQuicksort, digito, TAMANHO);
 }
