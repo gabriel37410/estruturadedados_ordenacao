@@ -9,17 +9,19 @@
 #include "insercao.c"
 #include "quicksort.c"
 #include "timsort.c"
-
+#include "buscaBinaria.c"
 
 int main () {
     mostrarTelaAbertura();
     prepararNumerosRandomicos();
 
-    ordenarUsandoBolha();       //OK
-    ordenarUsandoSelecao();     //OK
-    ordenarUsandoInsercao();    //OK
+    //ordenarUsandoBolha();       //OK
+    //ordenarUsandoSelecao();     //OK
+    //ordenarUsandoInsercao();    //OK
     ordenarUsandoQuicksort();   //OK
-    ordenarUsandoTimsort();     //Falta implementar inserção
+    //ordenarUsandoTimsort();     //Falta implementar inserção
+
+    buscaBinaria();
     return 0;
 }
 

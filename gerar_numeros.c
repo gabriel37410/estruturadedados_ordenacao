@@ -3,8 +3,8 @@
 #include <stdlib.h>
 
 
-#define TAMANHO 10000    // Quantidades de números gerados
-#define VALOR_MAXIMO 10000  // Valor máximo 
+#define TAMANHO 20       // Quantidades de números gerados
+#define VALOR_MAXIMO 15  // Valor máximo 
 
 int valoresRandomicos[TAMANHO];
 int valoresParaBolha[TAMANHO];
